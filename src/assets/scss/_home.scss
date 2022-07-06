@@ -1,0 +1,93 @@
+.banner {
+     background-color: $main;
+     position: relative;
+     z-index: 1;
+     overflow-x: hidden;
+     overflow-y: hidden;
+
+     h1 {
+        font-size: 1.7rem;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        
+    }
+    p {
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 1rem;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 0;
+    }
+}
+
+
+
+.banner .bg-vector {
+     width: 350px;
+     z-index: -1;
+     display: block;
+     margin: 0 auto;
+     max-width: 100%;
+     height: auto ;
+}
+
+.bg-user {
+     position: absolute;
+     max-width: 100%;
+     bottom: 0;
+     width: 250px;
+     left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 990px)  {
+    .bg-user {
+    bottom: 27%;        
+   }
+}
+
+@media only screen and (min-width: 767px) {
+
+    .banner {
+        height: 600px;
+    }
+
+   .row-banner {
+      flex-direction: row-reverse;
+   }
+
+   .banner .bg-vector {
+      width: 600px;
+   }
+
+   .banner h1 {
+      font-size: 3rem;
+      text-align: left;
+   }
+   
+   .banner p {
+     text-align: left;
+   }
+
+   .bg-images {
+      height: 100%;
+   }
+
+   .bg-user {
+     width: 550px;
+   }
+}
