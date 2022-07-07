@@ -3,6 +3,7 @@ import Banner from './home/Banner'
 import Projects from './home/Projects'
 import Service from './home/Service'
 import Tools from './home/Tools'
+import Portfolio from './home/Portfolio'
 
 const Body = () => {
   return (
@@ -11,6 +12,7 @@ const Body = () => {
         <Projects />
         <Service />
         <Tools />
+        <Portfolio />
     </div>
   )
 }

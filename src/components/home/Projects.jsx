@@ -9,6 +9,7 @@ const Projects = () => {
     <section>
         <div className='text-center title-wrapper'>
            <h1 className='section-title'>Some Projects</h1>
+           <p>Ut enim ad minim veniam, quis nostrud exercitation</p>
         </div>
         <div className='section-project'>
 

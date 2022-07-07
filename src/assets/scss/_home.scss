@@ -108,6 +108,29 @@
 }
 
 
+.portfolio {
+
+    h2 {
+         font-size: 2rem;
+    }
+
+    .project-img {
+        box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+        -webkit-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+        -moz-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+    }
+}
+
+.use-tools {
+    margin-top: 3rem;
+    span {
+        padding: 8px 20px;
+        border: 1px solid grey;
+        margin: 5px;
+        color: grey;
+    }
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 990px)  {
     .bg-user {
