@@ -8,7 +8,7 @@ const Image = (img, title, link) => {
             <img src={img.src} alt="img06"/>
             <figcaption>
                 <h3 className='text-accent'>{img.title}</h3>
-                <p className='text-work'>{ parse(img.description) }</p>
+                <div className='text-work'>{ parse(img.description) }</div>
                 <a href={img.link} target="_blank"></a>
             </figcaption>			
         </figure>

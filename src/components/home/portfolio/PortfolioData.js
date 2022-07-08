@@ -7,7 +7,7 @@ export const data = [
         link: 'https://iacademy.edu.ph/',
         tools: ['HTML', 'Bootstrap', 'jQuery', 'Code Igniter'],
         short_description: '<p> A clean and dark minimal design build from scrach from UX/UI to production.</p>',
-        description: '<p>iACADEMY is a school website that specialized programs in COMPUTING,BUSINESS AND LIBERAL ARTS, AND DESIGN.</p><p> A clean and dark minimal design build from scrach from UX/UI to production.</p>'
+        description: '<p>iACADEMY is a school  that specialized programs in COMPUTING,BUSINESS AND LIBERAL ARTS, AND DESIGN.</p><p> This websie made with  clean and dark minimal design build from scrach from UX/UI to production.</p>'
     },
 
     {
