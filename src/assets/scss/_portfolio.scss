@@ -17,6 +17,7 @@
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
+    border: 1px solid $main;
 }
 
 .grid figure figcaption {
@@ -62,15 +63,14 @@
 }
 
 .grid figure p {
-	// letter-spacing: 1px;
 	font-size: 68.5%;
     font-size: 14px ;
 }
 
 figure.effect-layla {
-    box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
-    -webkit-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
-    -moz-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+    box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
+    -webkit-box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
+    -moz-box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
 }
 
 
@@ -160,8 +160,6 @@ figure.effect-layla:hover h3{
 }
 
 
-
-figure.effect-layla:hover h2,
 figure.effect-layla:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
@@ -169,9 +167,16 @@ figure.effect-layla:hover p {
 }
 
 figure.effect-layla:hover figcaption::after,
-figure.effect-layla:hover h2,
 figure.effect-layla:hover p,
 figure.effect-layla:hover img {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
+}
+
+@media only screen and (min-width: 767px) {
+    figure.effect-layla {
+        box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+        -webkit-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+        -moz-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+    }
 }
