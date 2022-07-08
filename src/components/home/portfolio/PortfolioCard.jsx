@@ -7,7 +7,7 @@ const Portfolio = ({ data, index }) => {
   const isEvent = index % 2; 
 
   return (
-    <div className='container pb-5 mt-5'>
+    <div className='container pb-5'>
         <div className={ isEvent ? 'row text-black mb-5' : 'row text-black mb-5 flex-md-row-reverse'}>
             <div className="col-md-6 p-3 d-flex align-items-center">
                 <Image src={data.img} title={data.title} link={data.link} description={data.short_description} />
