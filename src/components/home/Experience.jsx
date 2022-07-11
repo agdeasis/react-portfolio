@@ -5,15 +5,15 @@ const Experience = () => {
     <section className='section-experience'>
         <div className="container">
             <div className='text-center' style={{paddingTop:'100px'}}>
-            <h1 className='section-title'>Work Experience & Education</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <h1 className='section-title'>Work Experience & Education</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
             <div className='experience row mb-5'>
                 <div className="col-md-6 p-4">
                     <div class="vtl-timeline mt-5">
                         <div class="event">
                             <p class="text-work">2017 - 2018</p>
-                            <h3 class="text-accent">FullStact Web & Android Developer</h3>
+                            <h3 class="text-accent">FullStack Web & Android Developer</h3>
                             <p className='text-work'>Actus Global Management</p>
                         </div>
                         <div class="event">

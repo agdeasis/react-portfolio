@@ -15,7 +15,7 @@ export const data = [
         img: './images/portfolio/maze.jpg',
         title: 'Maze',
         sub: 'Social Distancing App & Web',
-        link: 'https://iacademy.edu.ph/',
+        link: 'https://maze-iacademy.ph/#/',
         tools: ['HTML', 'Sass', 'Vue Js', 'Laravel'],
         short_description:"<p>Maze is Philippines' first social distancing app that helps users see the crowd density of an area before going out.</p>",
         description: "<p>Maze is Philippines' first social distancing app that helps users see the crowd density of an area before going out.</p> <p>The app encourages people to practice social distancing by helping users avoid crowded places. Users will be able to see the crowd density of places such as grocery stores, public markets, drug stores, and banks.</p>"

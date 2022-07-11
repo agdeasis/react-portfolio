@@ -10,16 +10,16 @@ const Banner = () => {
                     <img src="./images/agd.png" alt=""  className='bg-user'/>
                 </div>
                 <div className="col-md-6">
-                    <h1  className='banner-title mt-3'>Hi there,  <br />  I'm <span className='text-success font-weight-bold'>Arnel</span>
+                    <h1 className='banner-title mt-3 text-uppercase'>Hi there,  <br />  I'm <span className='text-success font-weight-bold'>Arnel</span>
                     </h1>
-                    <h1>Front End Developer.</h1>
-                    <p className='text-work mt-4'>
+                    <h1 className='text-uppercase'>Front End Developer.</h1>
+                    <p className='mt-4'>
                         A design-minded Developer
                         focused on building beautiful
                         interfaces & experiences.
                     </p>
-                    <p className='text-work'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    <p className=''>
+                       I build things for the web, from a simple "Hello World" project to basically anything you can think of.
                     </p>
                 </div>
             </div>

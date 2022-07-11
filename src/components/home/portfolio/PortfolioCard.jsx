@@ -17,7 +17,7 @@ const Portfolio = ({ data, index }) => {
                     <h2>{ data.title } <br /> <span className='text-dark-accent subtitle'>{ data.sub }</span> </h2>
                     <div className='mt-4 text-work mb-4'>{ parse(data.description) }</div>
                     <div className='visit-url d-flex align-items-center'>
-                        <a href="" className='text-work'>View Site </a>
+                        <a href={data.link} target="_blank" className='text-work'>View Site </a>
                         <img src="./images/arrow-r.svg" height="15px"  alt="" />
                     </div>
                    
