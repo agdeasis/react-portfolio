@@ -17,7 +17,7 @@
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-    border: 1px solid $main;
+    // border: 1px solid $main;
 }
 
 .grid figure figcaption {
@@ -68,9 +68,9 @@
 }
 
 figure.effect-layla {
-    box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
-    -webkit-box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
-    -moz-box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
+    // box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
+    // -webkit-box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
+    // -moz-box-shadow: 8px 7px 0px 0px rgba(85,230,165,0.75);
 }
 
 
@@ -175,8 +175,16 @@ figure.effect-layla:hover img {
 
 @media only screen and (min-width: 767px) {
     figure.effect-layla {
-        box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
-        -webkit-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
-        -moz-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+        // box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+        // -webkit-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+        // -moz-box-shadow: 20px 19px 0px 0px rgba(85,230,165,0.75);
+    }
+
+    figure.effect-layla p {
+        padding: 0.5em 2em;
+        text-transform: none;
+        opacity: 0;
+        -webkit-transform: translate3d(0,-10px,0);
+        transform: translate3d(0,-10px,0);
     }
 }

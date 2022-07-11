@@ -22,7 +22,7 @@ export const data = [
     },
     {
         id: 3,
-        img: './images/portfolio/workgalore.jpg',
+        img: './images/portfolio/workfa.jpg',
         title: 'Work Galore Landing Page',
         sub: 'Online Job Portal',
         link: 'https://iacademy.edu.ph/',
