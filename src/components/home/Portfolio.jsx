@@ -21,6 +21,11 @@ const Portfolio = () => {
             ) ) : <></>
         }
 
+
+        <div className='mt-5 text-center  pb-5'>
+            <a href="" className='btn btn-l-r' >View More</a>
+        </div>
+
     </section>
   )
 }
