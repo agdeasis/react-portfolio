@@ -28,7 +28,7 @@ export const data = [
         link: 'https://iacademy.edu.ph/',
         tools: ['HTML', 'Sass', 'Vue Js', 'Laravel'],
         short_description:"<p> Work Galore is an online job portal that offers online recruitment in different countries.</p>",
-        description: "<p>Maze is Philippines' first social distancing app that helps users see the crowd density of an area before going out.</p> <p>The app encourages people to practice social distancing by helping users avoid crowded places. Users will be able to see the crowd density of places such as grocery stores, public markets, drug stores, and banks.</p>"
+        description: "<p> Work Galore is an online job portal that offers online recruitment in different countries.</p>",
     },
     
 ]

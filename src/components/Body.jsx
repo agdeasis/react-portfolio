@@ -4,6 +4,7 @@ import Projects from './home/Projects'
 import Service from './home/Service'
 import Tools from './home/Tools'
 import Portfolio from './home/Portfolio'
+import Experience from './home/Experience'
 
 const Body = () => {
   return (
@@ -13,6 +14,7 @@ const Body = () => {
         <Service />
         <Tools />
         <Portfolio />
+        <Experience />
     </div>
   )
 }

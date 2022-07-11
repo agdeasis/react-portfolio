@@ -141,9 +141,11 @@ figure.effect-layla:hover figcaption::after {
 	transform: scale(1);
 }
 
-figure.effect-layla a, h3 {
+figure.effect-layla {
+	a, h3 {
     opacity: 0;
     transition: all  0.3ms; 
+	}
 }
 
 figure.effect-layla:hover a{
