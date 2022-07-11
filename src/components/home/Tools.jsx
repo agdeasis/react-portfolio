@@ -10,39 +10,39 @@ const Tools = () => {
 
             <div className='mt-5 mb-5 tools d-flex align-items-center justify-content-center'>
                 <div>
-                    <img src="/images/tools/html.png" alt="" />
+                    <img src="./images/tools/html.png" alt="" />
                     <p className='mt-3'>HTML</p>
                 </div>
                 <div>
-                    <img src="/images/tools/js.png" alt="" />
+                    <img src="./images/tools/js.png" alt="" />
                     <p className='mt-3'>JavaScript</p>
                 </div>
                 <div>
-                    <img src="/images/tools/css.png" alt="" />
+                    <img src="./images/tools/css.png" alt="" />
                     <p className='mt-3'>CSS</p>
                 </div>
                 <div>
-                    <img src="/images/tools/sass.png" alt="" />
+                    <img src="./images/tools/sass.png" alt="" />
                     <p className='mt-3'>Sass</p>
                 </div>
                 <div>
-                    <img src="/images/tools/jquery.png" alt="" />
+                    <img src="./images/tools/jquery.png" alt="" />
                     <p className='mt-3'>jQuery</p>
                 </div>
                 <div>
-                    <img src="/images/tools/bs.png" alt="" />
+                    <img src="./images/tools/bs.png" alt="" />
                     <p className='mt-3'>BootStrap</p>
                 </div>
                 <div>
-                    <img src="/images/tools/vue.png" alt="" />
+                    <img src="./images/tools/vue.png" alt="" />
                     <p className='mt-3'>Vue JS</p>
                 </div>
                 <div>
-                    <img src="/images/tools/react.png" alt="" />
+                    <img src="./images/tools/react.png" alt="" />
                     <p className='mt-3'>React JS</p>
                 </div>
                 <div>
-                    <img src="/images/tools/laravel.png" alt="" />
+                    <img src="./images/tools/laravel.png" alt="" />
                     <p className='mt-3'>Laravel</p>
                 </div>
             </div>
