@@ -2,7 +2,7 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div className='banner'>
+    <section className='banner'>
         <div className='container h-100 d-flex align-items-center  justify-content-center'>
             <div className="row h-100 align-items-center row-banner">
                 <div className="col-md-6 position-relative bg-images">
@@ -24,7 +24,7 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

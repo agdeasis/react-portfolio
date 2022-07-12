@@ -14,8 +14,8 @@ const Portfolio = ({ data, index }) => {
             </div>
             <div className="col-md-6 d-flex flex-column justify-content-center align-items-center">
                 <div style={{maxWidth:'500px'}} className='mt-5 p-3'>
-                    <h2>{ data.title } <br /> <span className='text-dark-accent subtitle'>{ data.sub }</span> </h2>
-                    <div className='mt-4 text-work mb-4'>{ parse(data.description) }</div>
+                    <h2>{ data.title } <br /> <span className='text-dark-accent subtitle' style={{lineHeight:1}}>{ data.sub }</span> </h2>
+                    <div className='mt-4  mb-4'>{ parse(data.description) }</div>
                     <div className='visit-url d-flex align-items-center'>
                         <a href={data.link} target="_blank" className='text-work'>View Site </a>
                         <img src="./images/arrow-r.svg" height="15px"  alt="" />

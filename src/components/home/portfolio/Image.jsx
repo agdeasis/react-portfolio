@@ -10,7 +10,7 @@ const Image = (img, title, link) => {
                 <div className='d-flex justify-content-center align-items-center h-100'>
                     <div>
                         <h3 className='text-accent mb-3'>{img.title}</h3>
-                        <div className='text-work portfolio-description mb-4    '>{ parse(img.description) }</div>
+                        <div className='portfolio-description mb-4'>{ parse(img.description) }</div>
                         <a href={img.link} className="btn btn-l-r portfolio-link align-self-center" target="_blank">View Site</a>
                     </div>
                 </div>

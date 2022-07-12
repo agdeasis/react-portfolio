@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className='mt-5'>
+    <section className='mt-5' id="about">
         <div className='section container'>
             <div className='title-wrapper'>
                 <div className='text-center'>
@@ -19,7 +19,7 @@ const About = () => {
                         <div className='about-right-details' >
                           <h1 className=' header-title'>
                              Arnel De Asis
-                             {/* <span>About</span> */}
+                             <span>About</span>
                           </h1>
                           <span className='mt-2'><i>Front-end Developer</i></span>
                           <hr />

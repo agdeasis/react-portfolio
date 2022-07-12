@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <section>
+    <div>
         <div className='section container service'>
             <div className='text-center title-wrapper'>
                 <h1 className='section-title mb-5'>What I Offer?</h1>
@@ -27,7 +27,7 @@ const Service = () => {
                 </div>
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 

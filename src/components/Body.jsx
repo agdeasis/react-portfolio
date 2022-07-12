@@ -8,7 +8,7 @@ import Experience from './home/Experience'
 
 const Body = () => {
   return (
-    <div>
+    <div className='x-wrapper'>
         <Banner />
         <About />
         <Service />

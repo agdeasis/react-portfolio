@@ -5,6 +5,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 body {
 	min-height: 100vh;
 	font-family: 'Mulish', sans-serif;
@@ -13,6 +17,19 @@ body {
     background-color: $main;
 }
 
+section {
+    &:before {
+        display: block;
+        content: " ";
+        margin-top: -40px;
+        height: 40px;
+        visibility: hidden;
+    }
+}
+
+.x-wrapper {
+    overflow-x: hidden;
+}
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Poppins', sans-serif;

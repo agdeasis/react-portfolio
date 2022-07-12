@@ -7,7 +7,7 @@ export const data = [
         link: 'https://iacademy.edu.ph/',
         tools: ['HTML', 'Bootstrap', 'jQuery', 'Code Igniter'],
         short_description: '<p> A clean and dark minimal design build from scrach from UX/UI to production.</p>',
-        description: '<p>iACADEMY is a school  that specialized programs in COMPUTING,BUSINESS AND LIBERAL ARTS, AND DESIGN.</p><p> This websie made with  clean and dark minimal design build from scrach from UX/UI to production.</p>'
+        description: '<p>iACADEMY is a school  that specialized programs in COMPUTING,BUSINESS AND LIBERAL ARTS, AND DESIGN.</p><p> This website made with  clean and dark minimal design build from scrach from UX/UI to production.</p>'
     },
 
     {
@@ -22,11 +22,21 @@ export const data = [
     },
     {
         id: 3,
+        img: './images/portfolio/iac-portal.jpg',
+        title: 'School Management Portal',
+        sub: 'Employee & Student Portal',
+        link: 'https://portalv2.iacademy.edu.ph/#/',
+        tools: ['HTML', 'Sass', 'Vue Js', 'Laravel'],
+        short_description:"<p>SMS portal is an online gateway where employee and student can log into a school web application to access important program information.</p>",
+        description: "<p>SMS portal is an online gateway where employee and student can log into a school web application to access important program information.</p>",
+    },
+    {
+        id: 4,
         img: './images/portfolio/workfa.jpg',
         title: 'Work Galore Landing Page',
         sub: 'Online Job Portal',
-        link: 'https://iacademy.edu.ph/',
-        tools: ['HTML', 'Sass', 'Vue Js', 'Laravel'],
+        link: 'https://shimmering-valkyrie-b964f5.netlify.app/',
+        tools: ['HTML', 'Sass', 'jQuery'],
         short_description:"<p> Work Galore is an online job portal that offers online recruitment in different countries.</p>",
         description: "<p> Work Galore is an online job portal that offers online recruitment in different countries.</p>",
     },

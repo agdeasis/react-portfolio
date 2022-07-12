@@ -4,13 +4,12 @@ import PortfolioData from './portfolio/PortfolioData'
 
 const Portfolio = () => {
   return (
-    <section className='portfolio' style={{ background: '#fff' }}>
+    <section className='portfolio' id="portfolio" style={{ background: '#fff' }}>
         <div className='text-center'  style={{paddingTop:'100px'}}>
             <h1 className='section-title text-black'>Some Recent Works</h1>
             <div className='text-center pb-5 mb-5'>
                 <p className='text-dark d-block mx-auto text-work' style={{ maxWidth:'600px' }}>
-                    Love residential design and build projects - big and small. From full builds,
-                    major renovations or a new lease of life to individual space.
+                    Feel free to checkout some of my recent projects.
                 </p>
             </div>
         </div>
@@ -20,12 +19,6 @@ const Portfolio = () => {
                 <PortfolioCard data={portolio} key={portolio.id} index={index + 1} />
             ) ) : <></>
         }
-
-
-        <div className='mt-5 text-center  pb-5'>
-            <a href="" className='btn btn-l-r' >View More</a>
-        </div>
-
     </section>
   )
 }
