@@ -41,7 +41,11 @@ const About = () => {
                   discussion and collaboration.
                 </p>
                 <br /> <br />
-                <a href="" className="btn-custom">
+                <a
+                  href="/agdeasis.pdf"
+                  target="_blank"
+                  className="btn-custom btn"
+                >
                   Download Resume
                 </a>
               </div>
